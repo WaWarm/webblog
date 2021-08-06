@@ -1,15 +1,17 @@
 {
-  "name": "nv-webblog",
+  "name": "nv-webblog-server",
   "version": "1.0.0",
-  "description": "Nodejs Vueja for webblog (backend)",
+  "description": "nodejs vuejs webblog server (back end)",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Watcharaphon Bunjan",
+  "author": "chayapon chandra",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
     "sequelize": "^6.6.5",
     "sqlite3": "^5.0.2"
   }
