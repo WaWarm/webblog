@@ -71,7 +71,8 @@ module.exports = {
     try {
       const user = await User.findByPk(req.params.userId)
       res.send(user)
-    } catch (err) {
+    } 
+    catch (err) {
         req.status(500).send({
             error: 'The user information was incorrect'
         })
